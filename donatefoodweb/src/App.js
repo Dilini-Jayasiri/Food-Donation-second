@@ -6,7 +6,9 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import Register from './components/Register';
+import DonateDash from './components/DonateDash';
 import {Routes,Route} from 'react-router';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
      <Route  path="/about" element={<About/>}/>
      <Route  path="/login" element={<Login/>}/>
      <Route  path="/register" element={<Register/>}/>
+     <Route  path="/donateDash" element={<DonateDash/>}/>
      
    </Routes>
    {/* <Home/>

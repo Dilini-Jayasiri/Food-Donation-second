@@ -23,7 +23,7 @@ const NavBar = () =>{
           <NavLink to="#" className="nav-link" >My Account</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="#" className="nav-link" >Donate</NavLink>
+          <NavLink to="/donateDash" className="nav-link" >Donate</NavLink>
         </li> 
       </ul>
       <NavLink className="navbar-brand fw-bolder fs-1 mx-auto" to="#">Food Donation</NavLink>

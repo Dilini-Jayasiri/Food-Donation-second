@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import DonateDash from './components/DonateDash';
 import {Routes,Route} from 'react-router';
+import DonationForm from './components/DonationForm';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <Route  path="/login" element={<Login/>}/>
      <Route  path="/register" element={<Register/>}/>
      <Route  path="/donateDash" element={<DonateDash/>}/>
+     <Route  path="/donationForm" element={<DonationForm/>}/>
      
    </Routes>
    {/* <Home/>

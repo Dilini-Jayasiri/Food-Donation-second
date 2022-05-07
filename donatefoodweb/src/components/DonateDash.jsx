@@ -47,7 +47,7 @@ import 'animate.css';
            </div>
            <div class="row my-5">
              <div class="text-center">
-               <button><NavLink to="/donationForm" class="btn btn-primary">Go to Donation Page</NavLink>  </button> 
+               <button><NavLink to="/donationType" class="btn btn-primary">Go to Donation Page</NavLink>  </button> 
              </div>
           </div>
     </div>

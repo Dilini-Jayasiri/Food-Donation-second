@@ -1,3 +1,4 @@
+import '../assets/about.gif';
 import React from 'react'
 
  const About = () => {
@@ -7,7 +8,7 @@ import React from 'react'
             <div className="container my-5 py-5">
                 <div className="row">
                     <div className="col-md-6">
-                        <img src="/assets/about.gif" alt="About" className="w-75 mt-5"/>
+                        <img src="../assets/about.gif" alt="About" className="w-75 mt-5"/>
                     </div>
                     <div className="col-md-6">
                         <h3 className="fs-5 mb-0">About Us</h3>

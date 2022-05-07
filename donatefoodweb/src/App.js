@@ -9,6 +9,9 @@ import Register from './components/Register';
 import DonateDash from './components/DonateDash';
 import {Routes,Route} from 'react-router';
 import DonationForm from './components/DonationForm';
+import DonationType from './components/DonationType';
+
+
 
 
 function App() {
@@ -22,6 +25,7 @@ function App() {
      <Route  path="/register" element={<Register/>}/>
      <Route  path="/donateDash" element={<DonateDash/>}/>
      <Route  path="/donationForm" element={<DonationForm/>}/>
+     <Route path="/donationType" element={<DonationType/>}/>
      
    </Routes>
    {/* <Home/>
